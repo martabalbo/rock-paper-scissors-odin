@@ -8,3 +8,10 @@ function getComputerChoice() {
     };
     return choice;
 };
+
+function getHumanChoice() {
+    let choice = prompt ("Make your choice!", "rock");
+    return choice
+};
+
+console.log(getHumanChoice());
